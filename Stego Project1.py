@@ -1,7 +1,7 @@
 import cv2
 import os
 
-img_path = r"C:\Users\Nadeem\Documents\Project Edunet\Rubies.png"  # Use a PNG image along with the directory location under r"__xyz_._.png"
+img_path = r"C:\Users\Nadeem\Documents\Project Edunet\Rubies.png"  # Replace the path with your image path under the quotes
 img = cv2.imread(img_path)
 
 if img is None:
